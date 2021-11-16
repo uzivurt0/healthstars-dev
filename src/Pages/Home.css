@@ -1,0 +1,153 @@
+.section-title {
+  color: var(--clr-dark-green);
+  padding: 2px 0;
+  text-transform: uppercase;
+  border-bottom: 3px solid var(--clr-green-tertiary);
+}
+
+.section-container {
+  width: auto;
+  display: flex;
+  flex-direction: column;
+  margin: 25px 0;
+  padding: 0 10px 10px 10px;
+  flex-direction: row;
+  background-color: #f5f5f5;
+}
+
+.section-content {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  margin: 10px 0;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.section-headline {
+  max-width: 50%;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #d8d8d8;
+}
+
+.content-container {
+  flex: 0 0 43%;
+}
+
+.headline-img {
+  max-width: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 12px rgba(83, 83, 83, 0.2);
+}
+
+.headline-img img {
+  width: 100%;
+  height: auto;
+}
+
+.content-img {
+  max-width: 350px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 12px rgba(83, 83, 83, 0.2);
+}
+
+.headline-title-author {
+  margin: 10px 0;
+  text-align: justify;
+}
+
+.headline-title-author h3 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+.content-title-author {
+  display: flex;
+  width: 450px;
+  margin-left: 10px;
+  flex-direction: column;
+  text-align: left;
+}
+
+.recipe-title-author {
+  display: flex;
+  margin-left: 10px;
+  flex-direction: column;
+  text-align: left;
+}
+
+.content-title-author h3 {
+  font-size: 36px;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content-title-author h3:hover {
+  color: #929292;
+  transition: 0.2s;
+}
+
+.content-img img {
+  width: 100%;
+  height: auto;
+}
+
+@media screen and (max-width: 768px) {
+  .section-container {
+    flex-direction: column;
+  }
+
+  .content-title-author {
+    width: 125px;
+  }
+
+  .headline-title-author h3,
+  .content-title-author h3 {
+    font-size: 18px;
+  }
+
+  .headline-img {
+    max-width: 750px;
+  }
+
+  .content-title-author h1 {
+    font-size: 20px;
+  }
+
+  .headline-title-author {
+    margin: 10px 0;
+  }
+
+  .content-container {
+    width: 100%;
+  }
+
+  .section-headline {
+    max-width: 100%;
+    margin: 0;
+    padding-right: 0;
+    border-right: 0;
+    border-bottom: 1px solid #d8d8d8;
+  }
+
+  .section-container {
+    padding: 15px;
+  }
+
+  .headline-img {
+    width: 100%;
+    max-height: 320px;
+  }
+
+  .content-img {
+    flex: 0 0 40%;
+  }
+}

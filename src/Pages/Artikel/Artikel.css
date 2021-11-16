@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.article-container {
+  padding: 25px;
+  color: var(--clr-dark-green);
+  margin: 75px 0;
+}
+
+.paragraph-container p {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: justify;
+  color: black;
+  font-family: "Lato", sans-serif;
+}
