@@ -73,7 +73,18 @@ export default class Home extends Component {
           <div className="section-title">
             <h1>Recipe Highlights</h1>
           </div>
-          <div className="section-container">
+          <div className="section-container2">
+            <div className="section-content">
+              <div className="content-img">
+                <img alt="thumbnail" src={Resep1} />
+              </div>
+              <div className="recipe-title-author">
+                <Link to="#">
+                  <h3>Nasi Goreng Vegetarian Vietnam</h3>
+                </Link>
+                <p>Author Goes Here</p>
+              </div>
+            </div>
             <div className="section-content">
               <div className="content-img">
                 <img alt="thumbnail" src={Resep1} />
