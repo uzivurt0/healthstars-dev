@@ -13,3 +13,9 @@
   color: black;
   font-family: "Lato", sans-serif;
 }
+
+.paragprah-headline h4,
+.color-dark-green {
+  color: unset;
+  color: var(--clr-dark-green) !important;
+}

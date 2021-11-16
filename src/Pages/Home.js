@@ -40,7 +40,7 @@ export default class Home extends Component {
                   <img alt="thumbnail" src={Artikel2} />
                 </div>
                 <div className="content-title-author">
-                  <Link to="#">
+                  <Link to="/artikel2">
                     <h3>Waktu Makan yang Baik untuk Kesehatan Tubuh</h3>
                   </Link>
                   <p>Author Goes Here</p>
@@ -51,7 +51,7 @@ export default class Home extends Component {
                   <img alt="thumbnail" src={Artikel3} />
                 </div>
                 <div className="content-title-author">
-                  <Link to="#">
+                  <Link to="/artikel3">
                     <h3>Pilihan metode memasak sayur</h3>
                   </Link>
                   <p>Author Goes Here</p>
@@ -62,7 +62,7 @@ export default class Home extends Component {
                   <img alt="thumbnail" src={Artikel4} />
                 </div>
                 <div className="content-title-author">
-                  <Link to="#">
+                  <Link to="/artikel4">
                     <h3>Manfaat mengkonsumsi healthy food</h3>
                   </Link>
                   <p>Author Goes Here</p>
