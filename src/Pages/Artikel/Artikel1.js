@@ -5,6 +5,9 @@ import Footer from "../../Components/Footer/Footer";
 import Header from "../../Components/Header/Header";
 
 export default class Artikel1 extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
   render() {
     return (
       <>
