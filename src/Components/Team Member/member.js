@@ -1,5 +1,4 @@
 import React from "react";
-import User from "../../Assets/image/Portrait_Placeholder.png";
 
 const Member = (props) => {
   return (

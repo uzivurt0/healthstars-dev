@@ -84,9 +84,7 @@ export default class Home extends Component {
           </div>
           <div className="section-title">
             <h1>Recipe Highlights</h1>
-            <a>
-              <Link to="/recipe">See More...</Link>
-            </a>
+            <Link to="/recipe">See More...</Link>
           </div>
           <div className="section-container2">
             <div className="section-content">
