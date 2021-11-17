@@ -3,6 +3,15 @@
   padding: 2px 0;
   text-transform: uppercase;
   border-bottom: 3px solid var(--clr-green-tertiary);
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+}
+
+.section-title a {
+  font-size: 18px;
+  color: var(--clr-font-green-primary);
+  margin-left: 5px;
 }
 
 .section-container {
@@ -27,7 +36,7 @@
 
 .section-content {
   display: flex;
-  width: 100%;
+  flex: 1;
   flex-direction: row;
   margin: 10px 0;
   border-bottom: 1px solid #d8d8d8;
@@ -35,6 +44,7 @@
 
 .section-headline {
   max-width: 50%;
+  flex: 2;
   margin-right: 10px;
   margin-top: 10px;
   padding-right: 10px;
@@ -46,7 +56,7 @@
 }
 
 .headline-img {
-  max-width: 100vh;
+  flex: 1;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -59,7 +69,7 @@
 }
 
 .content-img {
-  max-width: 350px;
+  flex: 1;
   overflow: hidden;
   display: flex;
   align-items: center;
@@ -78,17 +88,36 @@
 
 .content-title-author {
   display: flex;
-  width: 450px;
+  flex: 1;
   margin-left: 10px;
   flex-direction: column;
   text-align: left;
 }
 
+.recipe-img {
+  width: 500px;
+  height: 250px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 2px 12px rgba(83, 83, 83, 0.2);
+}
+
+.recipe-img img {
+  width: 100%;
+  height: auto;
+}
+
 .recipe-title-author {
   display: flex;
+  flex: 1;
   margin-left: 10px;
   flex-direction: column;
   text-align: left;
+}
+
+.recipe-title-author h3 {
+  font-size: 36px;
 }
 
 .content-title-author h3 {
@@ -110,17 +139,26 @@
   height: auto;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .section-container {
     flex-direction: column;
   }
 
+  .section-content {
+    max-height: 75px;
+    overflow: hidden;
+  }
   .content-title-author {
     width: 125px;
   }
 
+  .content-title-author p {
+    display: none;
+  }
+
   .headline-title-author h3,
-  .content-title-author h3 {
+  .content-title-author h3,
+  .recipe-title-author h3 {
     font-size: 18px;
   }
 
@@ -157,7 +195,9 @@
     max-height: 320px;
   }
 
-  .content-img {
+  .content-img,
+  .recipe-img {
     flex: 0 0 40%;
+    height: auto;
   }
 }

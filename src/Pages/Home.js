@@ -7,6 +7,7 @@ import Artikel2 from "../Assets/image/waktumakan.jpg";
 import Artikel3 from "../Assets/image/sayur.jpg";
 import Artikel4 from "../Assets/image/makanan.jpg";
 import Resep1 from "../Assets/image/nasigoreng.jpg";
+import Resep2 from "../Assets/image/bibimbap.jpg";
 import Background from "../Assets/image/header-bg.jpg";
 import { Link } from "react-router-dom";
 
@@ -43,7 +44,11 @@ export default class Home extends Component {
                   <Link to="/artikel2">
                     <h3>Waktu Makan yang Baik untuk Kesehatan Tubuh</h3>
                   </Link>
-                  <p>Author Goes Here</p>
+                  <p>
+                    Ada banyak dari kita yang tidak terlalu memperdulikan waktu
+                    makan sehari-hari yang baik untuk tubuh dengan berbagai
+                    alasan....
+                  </p>
                 </div>
               </div>
               <div className="section-content">
@@ -54,7 +59,10 @@ export default class Home extends Component {
                   <Link to="/artikel3">
                     <h3>Pilihan metode memasak sayur</h3>
                   </Link>
-                  <p>Author Goes Here</p>
+                  <p>
+                    Metode atau cara memasak juga menentukan banyaknya zat gizi
+                    yang hilang....
+                  </p>
                 </div>
               </div>
               <div className="section-content">
@@ -65,33 +73,40 @@ export default class Home extends Component {
                   <Link to="/artikel4">
                     <h3>Manfaat mengkonsumsi healthy food</h3>
                   </Link>
-                  <p>Author Goes Here</p>
+                  <p>
+                    Buah, sayuran, protein tanpa lemak dan biji-bijian
+                    bermanfaat untuk menggantikan makanan tinggi lemak dan
+                    tinggi kalori sehingga membuat kenyang lebih lama....
+                  </p>
                 </div>
               </div>
             </div>
           </div>
           <div className="section-title">
             <h1>Recipe Highlights</h1>
+            <a>
+              <Link to="/recipe">See More...</Link>
+            </a>
           </div>
           <div className="section-container2">
             <div className="section-content">
-              <div className="content-img">
+              <div className="recipe-img">
                 <img alt="thumbnail" src={Resep1} />
               </div>
               <div className="recipe-title-author">
-                <Link to="#">
+                <Link to="/resep1">
                   <h3>Nasi Goreng Vegetarian Vietnam</h3>
                 </Link>
                 <p>Author Goes Here</p>
               </div>
             </div>
             <div className="section-content">
-              <div className="content-img">
-                <img alt="thumbnail" src={Resep1} />
+              <div className="recipe-img">
+                <img alt="thumbnail" src={Resep2} />
               </div>
               <div className="recipe-title-author">
                 <Link to="#">
-                  <h3>Nasi Goreng Vegetarian Vietnam</h3>
+                  <h3>Bibimbap Vegetarian</h3>
                 </Link>
                 <p>Author Goes Here</p>
               </div>

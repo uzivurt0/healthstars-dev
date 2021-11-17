@@ -30,7 +30,7 @@ i {
   align-items: center;
   display: flex;
   justify-content: center;
-  padding: 25px 0;
+  padding: 50px 0;
   flex-direction: column;
 }
 
@@ -44,7 +44,7 @@ i {
 
 .team-container {
   display: flex;
-  max-width: 750px;
+  width: 60%;
   flex-direction: row;
   justify-content: space-between;
 }
@@ -55,22 +55,22 @@ i {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 0 15px;
 }
 
 .team-circle {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   overflow: hidden;
+  margin: 25px 0;
 }
 
 .team-circle img {
-  width: 100%;
-  height: auto;
+  width: auto;
+  height: 100%;
 }
 
 .team-name,

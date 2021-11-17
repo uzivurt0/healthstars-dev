@@ -2,6 +2,11 @@ import React, { Component } from "react";
 import "./About.css";
 import Logo from "../Assets/image/HEALTHSTARS_GREEN.png";
 import Background from "../Assets/image/header-bg.jpg";
+import April from "../Assets/image/april.jpeg";
+import Ghina from "../Assets/image/ghina.jpeg";
+import Fafa from "../Assets/image/fafa.JPG";
+import Fredericka from "../Assets/image/fredericka.jpeg";
+import Ken from "../Assets/image/ken.jpeg";
 import Header from "../Components/Header/Header";
 import Footer from "../Components/Footer/Footer";
 import Member from "../Components/Team Member/member";
@@ -10,7 +15,7 @@ export default class About extends Component {
   render() {
     return (
       <>
-        <Header header={Background} title="HEALTHY STARTS" titlegreen="HERE" />
+        <Header header={Background} title="ABOUT" titlegreen="US" />
         <div className="page-container">
           <div className="aboutus-desc">
             <div className="aboutus-logo">
@@ -36,15 +41,19 @@ export default class About extends Component {
           <div className="aboutus-team">
             <div className="team-title">OUR TEAM</div>
             <div className="team-container">
-              <Member name="Aprilia Sisca D." nim="00000037653" ig="#" />
-              <Member name="Fredericka Linardo" nim="00000037190" ig="#" />
-              <Member name="Ghina Kusuma D." nim="00000036908" ig="#" />
-              <Member name="Kendrick Nathanael R." nim="00000036001" ig="#" />
+              <Member name="Aprilia Sisca D." nim="00000037653" pic={April} />
               <Member
-                name="M. Faisal Farhan"
-                nim="00000032039"
-                ig="https://instagram.com/faisal.frhan"
+                name="Fredericka Linardo"
+                nim="00000037190"
+                pic={Fredericka}
               />
+              <Member name="Ghina Kusuma D." nim="00000036908" pic={Ghina} />
+              <Member
+                name="Kendrick Nathanael R."
+                nim="00000036001"
+                pic={Ken}
+              />
+              <Member name="M. Faisal Farhan" nim="00000032039" pic={Fafa} />
             </div>
           </div>
         </div>

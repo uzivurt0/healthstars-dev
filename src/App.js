@@ -7,10 +7,13 @@ import {
   Redirect,
 } from "react-router-dom";
 import About from "./Pages/About";
+import Resep from "./Pages/Resep";
 import Artikel1 from "./Pages/Artikel/Artikel1";
 import Artikel2 from "./Pages/Artikel/Artikel2";
 import Artikel3 from "./Pages/Artikel/Artikel3";
 import Artikel4 from "./Pages/Artikel/Artikel4";
+import Resep1 from "./Pages/Resep/Resep1";
+import Resep2 from "./Pages/Resep/Resep2";
 
 function App() {
   return (
@@ -26,6 +29,9 @@ function App() {
           <Route path="/about">
             <About />
           </Route>
+          <Route path="/recipe">
+            <Resep />
+          </Route>
           <Route path="/artikel1">
             <Artikel1 />
           </Route>
@@ -37,6 +43,12 @@ function App() {
           </Route>
           <Route path="/artikel4">
             <Artikel4 />
+          </Route>
+          <Route path="/resep1">
+            <Resep1 />
+          </Route>
+          <Route path="/resep2">
+            <Resep2 />
           </Route>
         </Switch>
       </div>

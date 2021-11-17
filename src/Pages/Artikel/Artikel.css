@@ -14,8 +14,16 @@
   font-family: "Lato", sans-serif;
 }
 
+.paragraph-container h4 {
+  font-size: 20px;
+}
+
 .paragprah-headline h4,
 .color-dark-green {
   color: unset;
   color: var(--clr-dark-green) !important;
+}
+
+ol.how-to {
+  list-style-type: decimal;
 }
