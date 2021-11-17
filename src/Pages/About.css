@@ -44,7 +44,7 @@ i {
 
 .team-container {
   display: flex;
-  width: 60%;
+  width: 70%;
   flex-direction: row;
   justify-content: space-between;
 }

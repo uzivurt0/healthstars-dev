@@ -95,7 +95,9 @@ export default class Home extends Component {
                 <Link to="/resep1">
                   <h3>Nasi Goreng Vegetarian Vietnam</h3>
                 </Link>
-                <p>Author Goes Here</p>
+                <p>
+                  Resep Nasi Goreng Khas Vietnam dilengkapi dengan sayur-sayuran
+                </p>
               </div>
             </div>
             <div className="section-content">
@@ -103,10 +105,10 @@ export default class Home extends Component {
                 <img alt="thumbnail" src={Resep2} />
               </div>
               <div className="recipe-title-author">
-                <Link to="#">
+                <Link to="/resep2">
                   <h3>Bibimbap Vegetarian</h3>
                 </Link>
-                <p>Author Goes Here</p>
+                <p>Makanan khas korea yang berisi sayur-sayuran</p>
               </div>
             </div>
           </div>

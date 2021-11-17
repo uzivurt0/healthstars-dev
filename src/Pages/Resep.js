@@ -25,7 +25,9 @@ export default class Resep extends Component {
                 <Link to="/resep1">
                   <h3>Nasi Goreng Vegetarian Vietnam</h3>
                 </Link>
-                <p>Author Goes Here</p>
+                <p>
+                  Resep Nasi Goreng Khas Vietnam dilengkapi dengan sayur-sayuran
+                </p>
               </div>
             </div>
             <div className="section-content">
@@ -36,7 +38,7 @@ export default class Resep extends Component {
                 <Link to="/resep2">
                   <h3>Bibimbap Vegetarian</h3>
                 </Link>
-                <p>Author Goes Here</p>
+                <p>Makanan khas korea yang berisi sayur-sayuran</p>
               </div>
             </div>
             <div className="section-content">
@@ -47,7 +49,7 @@ export default class Resep extends Component {
                 <Link to="/resep2">
                   <h3>Salad Cesar Ayam</h3>
                 </Link>
-                <p>Author Goes Here</p>
+                <p>Caesar Salad yang dilengkapi dengan sayur dan ayam</p>
               </div>
             </div>
             <div className="section-content">
@@ -58,7 +60,7 @@ export default class Resep extends Component {
                 <Link to="/resep2">
                   <h3>Burrito Vegetarian</h3>
                 </Link>
-                <p>Author Goes Here</p>
+                <p>Makanan khas Meksiko berisi sayur-sayuran</p>
               </div>
             </div>
             <div className="section-content">
@@ -69,7 +71,7 @@ export default class Resep extends Component {
                 <Link to="/resep2">
                   <h3>Samosa Vegetarian</h3>
                 </Link>
-                <p>Author Goes Here</p>
+                <p>Makanan khas India berisi sayur-sayuran</p>
               </div>
             </div>
             <div className="section-content">
@@ -80,7 +82,7 @@ export default class Resep extends Component {
                 <Link to="/resep2">
                   <h3>Buncis Panggang Maroko</h3>
                 </Link>
-                <p>Author Goes Here</p>
+                <p>Buncis khas Meksiko berisi sayur-sayuran</p>
               </div>
             </div>
           </div>

@@ -152,7 +152,8 @@
     width: 125px;
   }
 
-  .content-title-author p {
+  .content-title-author p,
+  .recipe-title-author p {
     display: none;
   }
 
