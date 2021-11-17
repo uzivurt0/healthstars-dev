@@ -44,7 +44,7 @@ export default class Resep extends Component {
                 <img alt="thumbnail" src={Resep3} />
               </div>
               <div className="recipe-title-author">
-                <Link to="#">
+                <Link to="/resep2">
                   <h3>Salad Cesar Ayam</h3>
                 </Link>
                 <p>Author Goes Here</p>
@@ -55,7 +55,7 @@ export default class Resep extends Component {
                 <img alt="thumbnail" src={Resep4} />
               </div>
               <div className="recipe-title-author">
-                <Link to="#">
+                <Link to="/resep2">
                   <h3>Burrito Vegetarian</h3>
                 </Link>
                 <p>Author Goes Here</p>
@@ -66,7 +66,7 @@ export default class Resep extends Component {
                 <img alt="thumbnail" src={Resep5} />
               </div>
               <div className="recipe-title-author">
-                <Link to="#">
+                <Link to="/resep2">
                   <h3>Samosa Vegetarian</h3>
                 </Link>
                 <p>Author Goes Here</p>
@@ -77,7 +77,7 @@ export default class Resep extends Component {
                 <img alt="thumbnail" src={Resep6} />
               </div>
               <div className="recipe-title-author">
-                <Link to="#">
+                <Link to="/resep2">
                   <h3>Buncis Panggang Maroko</h3>
                 </Link>
                 <p>Author Goes Here</p>
