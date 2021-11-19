@@ -44,7 +44,7 @@
 
 .section-headline {
   max-width: 50%;
-  flex: 2;
+  flex: 1;
   margin-right: 10px;
   margin-top: 10px;
   padding-right: 10px;
@@ -69,9 +69,10 @@
 }
 
 .content-img {
-  flex: 1;
+  flex: 2;
   overflow: hidden;
   display: flex;
+  max-height: 250px;
   align-items: center;
   box-shadow: 0 2px 12px rgba(83, 83, 83, 0.2);
 }
@@ -82,13 +83,17 @@
 }
 
 .headline-title-author h3 {
-  font-size: 36px;
+  font-size: 30px;
   font-weight: 700;
+}
+
+.headline-title-author p {
+  line-height: 20px;
 }
 
 .content-title-author {
   display: flex;
-  flex: 1;
+  flex: 2;
   margin-left: 10px;
   flex-direction: column;
   text-align: left;
@@ -121,12 +126,17 @@
 }
 
 .content-title-author h3 {
-  font-size: 36px;
+  font-size: 28px;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
+}
+
+.content-title-author p {
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .content-title-author h3:hover {

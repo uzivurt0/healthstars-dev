@@ -66,6 +66,7 @@ i {
   justify-content: center;
   overflow: hidden;
   margin: 25px 0;
+  box-shadow: 1px 1px 12px rgb(172, 172, 172);
 }
 
 .team-circle img {
